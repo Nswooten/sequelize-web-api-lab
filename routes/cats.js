@@ -10,4 +10,6 @@ router.put("/:catId", catsCtrl.update)
 
 router.delete("/:catId", catsCtrl.delete)
 
+router.post("/:catId/feedings", catsCtrl.addFeeding)
+
 module.exports = router
